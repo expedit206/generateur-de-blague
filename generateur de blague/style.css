@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 2rem;
+}
+p {
+  font-size: 3rem;
+  font-weight: bold;
+  text-decoration: underline wavy;
+}
+#app {
+  background: linear-gradient(
+    rgba(97, 199, 240, 0.568) 15%,
+    white 40%,
+    rgba(228, 19, 228, 0.582)
+  );
+  z-index: 1000;
+  width: 50%;
+  border-radius: 50px;
+  padding: 1rem;
+  border: 5px BLACK dashed;
+  transform: skewX(15deg) rotateY(10deg);
+  position: relative;
+  color: black;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 1);
+}
